@@ -1,9 +1,185 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Playwrite+CU:wght@100..400&display=swap');
 
+body{
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
 *{
     margin: 0;
     padding: 0;
 }
-body{
-    font-family: "Inter", sans-serif;
+/* primary style */
+.description-style{
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.5);
+}
+.btn-primary{
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+    padding: 15px 30px;
+    border-radius: 42px;
+    background: rgb(230, 83, 60);
+    border: 1px solid white;
+}
+/* navbar style starts here */
+header{
+    width: 90%;
+    margin: 0 auto;
+    background-color: black;
+}
+.nav-container{
+    border: 2px solid red;
+    display: flex;
+    justify-content: space-between;
+}
+.nav-title{
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 800;
+    color: rgb(230, 83, 60);
+    text-align: left;
+}
+.home{
+    border-radius: 46px;
+    padding: 4px;
+    font-weight: 600;
+    color: white;
+    background: rgb(230, 83, 60);
+}
+.nav-main{
+    color: white;
+    font-size: 18px;
+    display: flex;
+    gap: 45px;
+    justify-content: center;
+    align-items: center;
+}
+.navigation{
+    display: none;
+}
+/* nav style ends here  */
+
+/* banner style starts here */
+.banner-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.banner-title{
+    font-size: 50px;
+    font-weight: 900;
+    color: white;
+}
+.shape{
+    font-family: "Playwrite CU", cursive;
+}
+.banner-description{
+    margin-bottom: 25px;
+}
+#download{
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+    background-color: black;
+    border: 1px solid white;
+    padding: 15px 30px;
+    border-radius: 42px;
+    margin-left: 20px;
+}
+.btn-flex{
+    display: flex;
+}
+.banner-img{
+    position: relative;
+}
+.btn-tutorial{
+    max-width: 180px;
+    max-height: 98px;
+    padding: 5px;
+    position: absolute;
+    right: -30px;
+    top: 140px;
+    text-align: center;
+    box-sizing: border-box;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    backdrop-filter: blur(20px);
+    background: rgba(255, 255, 255, 0.1);
+}
+.btn-tutorial-title{
+    color: white;
+    font-size: 40px;
+    font-weight: 900;
+}
+.btn-video{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 5px;
+    position: absolute;
+    top: 430px;
+    left: -90px;
+}
+.ball{
+    width: 30px;
+    height: 30px;
+    background-color: red;
+    border-radius: 50%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* responsive  design for mobile */
+@media screen and (max-width: 576px) {
+    header{
+        width: 90%;
+    }
+    .nav-main{
+        display: none;
+    }
+    .navigation{
+        display: block;
+        display: flex;
+        align-items: center;
+    }
+    .banner-container{
+        flex-direction: column;
+    }
+    .btn-tutorial{
+        padding: 0px;
+        right: -3px;
+        top: 70px; 
+    }
+    .btn-video{
+        top: 420px;
+        left: -3px;
+    }
+   
 }
