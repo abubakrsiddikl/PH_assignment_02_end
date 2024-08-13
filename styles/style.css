@@ -251,5 +251,15 @@ header{
         display: block;
         margin: 0 auto;
     }
-   
+    /* run section responsive start heree */
+    .run-container{
+        flex-direction: column;
+    }
+    .run-text-description{
+        text-align: center;
+    }
+    
+    .join{
+        margin: 30px;
+    }
 }
