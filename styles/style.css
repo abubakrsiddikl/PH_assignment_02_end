@@ -11,6 +11,10 @@ body{
     padding: 0;
 }
 /* primary style */
+main{
+    width: 90%;
+    margin: 0 auto;
+}
 .description-style{
     font-size: 14px;
     color: rgba(255, 255, 255, 0.5);
@@ -64,6 +68,7 @@ header{
 
 /* banner style starts here */
 .banner-container{
+    margin-bottom: 80px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -128,6 +133,24 @@ header{
     width: 30px;
     height: 30px;
     background-color: red;
+    border-radius: 50%;
+}
+/* habite section style starts heree */
+.habit-section{
+    background-color: black;
+}
+.habit-text-title{
+    font-size: 2.5rem;
+    font-weight: 900;
+    text-align: center;
+    color: white;
+}
+.habit-text-description{
+    text-align: center;
+}
+
+
+.habit-card-img{
     border-radius: 50%;
 }
 
