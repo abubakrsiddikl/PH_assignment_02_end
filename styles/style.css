@@ -168,7 +168,30 @@ header{
 .habit-card-description{
     text-align: center;
 }
+/* Run Mils section startas here */
 
+.run-container{
+    padding: 20px;
+    border-radius: 18px;
+    background: rgb(34, 34, 34);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 140px;
+}
+.run-text-title{
+    color: white;
+    font-size: 2.5rem;
+    font-weight: 900;
+    margin-bottom: 10px;
+}
+.join{
+    margin-top: 30px;
+    padding: 16px 80px;
+}
+.run-img-container img{
+    border-radius: 20px;
+}
 
 
 
