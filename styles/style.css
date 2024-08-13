@@ -147,11 +147,26 @@ header{
 }
 .habit-text-description{
     text-align: center;
+    margin-bottom: 40px;
 }
-
-
+.habit-card-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 45px;
+}
 .habit-card-img{
     border-radius: 50%;
+}
+.habit-card-title{
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+    text-align: center;
+    padding: 8px;
+}
+.habit-card-description{
+    text-align: center;
 }
 
 
