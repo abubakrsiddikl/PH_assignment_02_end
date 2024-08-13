@@ -192,9 +192,34 @@ header{
 .run-img-container img{
     border-radius: 20px;
 }
-
-
-
+/* gym section style starts here */
+.gym-section{
+    background-color: black;
+}
+.traning-text-container{
+    color: white;
+}
+.gym-section img{
+    width: 100%;
+    height: 218px;
+}
+.row-1{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 0.5fr 1fr 0.5fr;
+    margin: 1rem 0;
+    gap: 0;
+}
+.gym-card{
+    position: relative;
+}
+.gym-card-description-bottom{
+    position: absolute;
+    left: 10%;
+    top: 70%;
+    bottom: -0%;
+    color: white;
+}
 
 
 
