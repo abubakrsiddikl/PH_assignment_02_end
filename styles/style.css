@@ -35,7 +35,6 @@ header{
     background-color: black;
 }
 .nav-container{
-    border: 2px solid red;
     display: flex;
     justify-content: space-between;
 }
@@ -68,7 +67,7 @@ header{
 
 /* banner style starts here */
 .banner-container{
-    margin-bottom: 80px;
+    margin-bottom: 50px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -150,6 +149,7 @@ header{
     margin-bottom: 40px;
 }
 .habit-card-container{
+    margin-bottom: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -196,6 +196,7 @@ header{
 
 /* responsive  design for mobile */
 @media screen and (max-width: 576px) {
+    /* header responsive starts here */
     header{
         width: 90%;
     }
@@ -218,6 +219,14 @@ header{
     .btn-video{
         top: 420px;
         left: -3px;
+    }
+    /* habit section responsive start here */
+    .habit-card-container{
+        flex-direction: column;
+    }
+    .habit-card-img{
+        display: block;
+        margin: 0 auto;
     }
    
 }
