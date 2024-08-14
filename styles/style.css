@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Playwrite+CU:wght@100..400&display=swap');
 
 body{
+    /* background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%);
+    background-color: black; */
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
     font-style: normal;
@@ -194,6 +196,7 @@ header{
 }
 /* gym section style starts here */
 .gym-section{
+    margin-top: 50px;
     background-color: black;
 }
 .traning-text-container{
@@ -207,7 +210,7 @@ header{
     width: 100%;
     display: grid;
     grid-template-columns: 0.5fr 1fr 0.5fr;
-    margin: 1rem 0;
+    margin: 0;
     gap: 0;
 }
 .gym-card{
@@ -220,8 +223,60 @@ header{
     bottom: -0%;
     color: white;
 }
+#exercise1 img{
+    filter: drop-shadow(8px 8px 10px  );
+    background: rgba(6, 255, 210, 0.5);
+}
+#exercise2 img{
+    background-color: rgba(255, 0, 0, 0.3);
+    im
+}
+#exercise3 img{
+    background: rgba(0, 0, 0, 0.5);
+}
+/* trainer section style starts here */
+.team-section{
+    margin-top: 50px;
+    background-color: black;
+}
+.team-text-container{
+    text-align: center;
+    color: white;
+}
+.team-text-title{
+    font-size: 2.5rem;
+    font-weight: 900;
+}
+.team-section img{
+    filter: brightness(60%);
+    border-radius: 10px;
+    width: 100%;
+    height: 272px;
+}
+.team-row-1 ,
+.team-row-2{
+    margin-top: 15px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 15px;
+}
+.team-card{
+    position: relative;
+}
 
-
+.trainer-name{
+    position: absolute;
+    left: 10%;
+    top: 70%;
+    bottom: -0%;
+    color: white;
+    font-size: 1.43rem;
+    font-weight: 600;
+}
+.trainer{
+    font-size: 1rem;
+    color: brown;
+}
 
 
 
@@ -286,5 +341,10 @@ header{
     
     .join{
         margin: 30px;
+    }
+    /* trainer section style starts here */
+    .team-row-1 ,
+    .team-row-2{
+        grid-template-columns: 1fr;
     }
 }
