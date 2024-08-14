@@ -237,6 +237,7 @@ header{
 /* trainer section style starts here */
 .team-section{
     margin-top: 50px;
+    margin-bottom: 50px;
     background-color: black;
 }
 .team-text-container{
@@ -277,9 +278,32 @@ header{
     font-size: 1rem;
     color: brown;
 }
-
-
-
+/* footer style starts here */
+.footer{
+    width: 90%;
+    margin: 0 auto;
+    background-color: black;
+}
+.footer-container{
+    margin-bottom: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.about-title{
+    color: white;
+    font-size: 1.56rem;
+    font-weight: 700;
+    margin-top: 20px;
+}
+.footer-item{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 1.125rem;
+    font-weight: 400;
+}
+hr{
+    margin-bottom: 50px;
+}
 
 
 
