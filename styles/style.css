@@ -266,6 +266,49 @@ header{
     color: white;
 }
 
+.overlay-1::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(6, 255, 210, 0.5);
+}
+.overlay-2::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 0, 0, 0.3);
+}
+.overlay-3::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+}
+.overlay-4::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+}
+.overlay-5::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(66, 255, 0, 0.3);
+}
+.overlay-6::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 71, 255, 0.3);
+}
+
 /* trainer section style starts here */
 .team-section{
     margin-top: 50px;
