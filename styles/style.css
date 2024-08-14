@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Playwrite+CU:wght@100..400&display=swap');
 
 body{
-    /* background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%);
-    background-color: black; */
+    background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%);
+    background-color: black;
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
     font-style: normal;
@@ -40,7 +40,6 @@ main{
 header{
     width: 90%;
     margin: 0 auto;
-    background-color: black;
 }
 #club{
     background-color: black;
@@ -138,7 +137,7 @@ header{
 }
 /* habite section style starts heree */
 .habit-section{
-    background-color: black;
+    background-color: ;
 }
 .habit-text-title{
     font-size: 2.5rem;
@@ -214,7 +213,7 @@ header{
 /* gym section style starts here */
 .gym-section{
     margin-top: 50px;
-    background-color: black;
+    background-color: ;
 }
 .traning-text-container{
     text-align: left;
@@ -266,22 +265,12 @@ header{
     bottom: -0%;
     color: white;
 }
-/* #exercise1 img{
-    filter: drop-shadow(8px 8px 10px  );
-    background: rgba(6, 255, 210, 0.5);
-}
-#exercise2 img{
-    background-color: rgba(255, 0, 0, 0.3);
-    im
-}
-#exercise3 img{
-    background: rgba(0, 0, 0, 0.5);
-} */
+
 /* trainer section style starts here */
 .team-section{
     margin-top: 50px;
     margin-bottom: 50px;
-    background-color: black;
+    background-color: ;
 }
 .team-text-container{
     text-align: center;
@@ -296,6 +285,12 @@ header{
     border-radius: 10px;
     width: 100%;
     height: 272px;
+}
+.team-row-container{
+    margin-top: 40px;
+    border-radius: 18px;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.1);
 }
 .team-row-1 ,
 .team-row-2{
@@ -329,7 +324,7 @@ header{
 .footer-section-container{
     width: 90%;
     margin: 0 auto;
-    background-color: black;
+    background-color: ;
 }
 .fit{
     display: hidden;
