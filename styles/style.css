@@ -189,6 +189,7 @@ header{
 }
 #now-btn{
     margin-top: 28px;
+    border: none;
 }
 .join{
     padding: 16px 50px;
@@ -198,12 +199,13 @@ header{
     color: white;
     background-color: red;
     border: 1px solid white;
-    border-radius: 18px;
+    border-radius: 40px;
     cursor: pointer;
     text-align: center;
 }
 #club{
     margin-left: 20px;
+    
 }
 .run-img-container img{
     width: 100%;
@@ -215,21 +217,47 @@ header{
     background-color: black;
 }
 .traning-text-container{
+    text-align: left;
     color: white;
+}
+.traning-text-title{
+    font-size: 2.5rem;
+}
+.traning-text-description{
+    margin-bottom: 40px;
 }
 .gym-section img{
     width: 100%;
     height: 218px;
 }
-.row-1{
+.row-1 ,
+.row-2{
     width: 100%;
     display: grid;
     grid-template-columns: 0.5fr 1fr 0.5fr;
     margin: 0;
     gap: 0;
 }
+.row-2{
+    gap: 0px;
+    grid-template-columns: 1.2fr 0.75fr 1fr;
+}
 .gym-card{
     position: relative;
+}
+.gym-card-description-top-left{
+    position: absolute;
+    left: 10%;
+    top: 10%;
+    bottom: -0%;
+    color: white;
+}
+.gym-card-description-top-right{
+    position: absolute;
+    left: 50%;
+    top: 10%;
+    bottom: -0%;
+    color: white;
 }
 .gym-card-description-bottom{
     position: absolute;
@@ -238,7 +266,7 @@ header{
     bottom: -0%;
     color: white;
 }
-#exercise1 img{
+/* #exercise1 img{
     filter: drop-shadow(8px 8px 10px  );
     background: rgba(6, 255, 210, 0.5);
 }
@@ -248,7 +276,7 @@ header{
 }
 #exercise3 img{
     background: rgba(0, 0, 0, 0.5);
-}
+} */
 /* trainer section style starts here */
 .team-section{
     margin-top: 50px;
@@ -359,6 +387,12 @@ hr{
     header{
         width: 90%;
     }
+    .banner-title ,
+    .habit-text-title ,
+    .run-text-title ,
+    .traning-text-title{
+        font-size: 30px;
+    }
     .btn-flex{
         justify-content: center;
         align-items: center;
@@ -398,7 +432,22 @@ hr{
         display: block;
         margin: 0 auto;
     }
-    /* run section responsive start heree */
+    /* gym section resposive start here */
+    .row-1 ,
+    .row-2{
+        grid-template-columns: 1fr 1fr;
+    }
+    .hidden{
+        display: none;
+    }
+    .gym-card-description-top-right{
+        position: absolute;
+        left: 10%;
+        top: 70%;
+        bottom: -0%;
+        color: white;
+    }
+    /* run section responsive start here*/
     .run-container{
         flex-direction: column;
         gap: 30px;
