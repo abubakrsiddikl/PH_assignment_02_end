@@ -276,13 +276,20 @@ header{
 }
 .trainer{
     font-size: 1rem;
-    color: brown;
+    color: rgba(255, 255, 255, 0.5);
 }
 /* footer style starts here */
 .footer{
+    width: 100%;
+    background: rgba(255, 255, 255, 0.1);
+}
+.footer-section-container{
     width: 90%;
     margin: 0 auto;
     background-color: black;
+}
+.fit{
+    display: hidden;
 }
 .footer-container{
     margin-bottom: 60px;
@@ -295,16 +302,26 @@ header{
     font-size: 1.56rem;
     font-weight: 700;
     margin-top: 20px;
+    margin-bottom: 20px;
+}
+.footer-title{
+    margin-bottom: 20px;
 }
 .footer-item{
     color: rgba(255, 255, 255, 0.5);
     font-size: 1.125rem;
     font-weight: 400;
+    margin-bottom: 15px;
 }
 hr{
-    margin-bottom: 50px;
+    margin-bottom: 30px;
+    border: 2px solid rgba(255, 255, 255, 0.1);
 }
-
+.copy{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 1rem;
+    text-align: center;
+}
 
 
 
@@ -366,9 +383,18 @@ hr{
     .join{
         margin: 30px;
     }
-    /* trainer section style starts here */
+    /* trainer section responsive starts here */
     .team-row-1 ,
     .team-row-2{
         grid-template-columns: 1fr;
+    }
+    /* footer-section responsive starts here */
+    .footer-container{
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+    .fit{
+
     }
 }
